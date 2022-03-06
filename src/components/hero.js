@@ -5,7 +5,7 @@ import * as styles from './hero.module.css'
 
 const Hero = ({ image, title, content }) => (
   <div className={StyleSheet.blue-bg}>
-  <div className={styles.portfolio-hero}>
+  <div className={styles.hero}>
     {image && (
       <GatsbyImage className={styles.image} alt={title} image={image} />
     )}
