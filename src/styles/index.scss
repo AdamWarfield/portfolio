@@ -1,6 +1,40 @@
-html {
-    background-color: rebeccapurple;
-    p {
-      color: white;
-    }
+//*Color pallet*//
+$dark-gray: #353535;
+$orange-soda: #f06449;
+$pale-blue: #DDFFF7;
+$blue: #2E86AB; 
+$yellow: #FFD166;
+$cream: #FFFDD0;
+
+
+.dark-gray-bg{
+  background: $dark-gray;
+  color:white;
+  h1 h2 h3 h4 h5 h6{
+    color: white;
   }
+}
+
+.orange-bg{
+  background: $orange-soda;
+  color:white;
+  h1 h2 h3 h4 h5 h6{
+    color: white;
+  }
+}
+
+.cream-bg{
+  background: $cream;
+}
+
+.blue-bg{
+  background: $blue;
+  color:white;
+  h1 h2 h3 h4 h5 h6{
+    color: white;
+  }
+}
+
+.pale-blue-bg{
+  background: $pale-blue;
+}

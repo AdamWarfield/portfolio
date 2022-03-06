@@ -13,7 +13,7 @@ class RootIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <Hero
+        <Portfolio-hero
           image={author.heroImage.gatsbyImageData}
           title={author.name}
           content={author.shortBio.shortBio}
