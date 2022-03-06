@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/layout'
-import Hero from '../components/hero'
+import portfolio_hero from '../components/portfolio-hero'
 import ArticlePreview from '../components/article-preview'
 
 class RootIndex extends React.Component {
