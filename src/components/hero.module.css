@@ -20,12 +20,15 @@
   padding: var(--space-2xl) var(--size-gutter) 0;
 }
 
-.title {
+.name {
   letter-spacing: -0.012em;
   font-size: var(--text-title);
   font-weight: var(--extrabold);
   line-height: var(--solid);
   margin: 0 0 var(--space-xl);
+}
+.title{
+  font-weight: var(--bold);
 }
 
 .content {
