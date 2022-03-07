@@ -23,7 +23,7 @@ class RootIndex extends React.Component {
         />
         </section>
         <ArticlePreview posts={posts} />
-        <script type="text/javascript" src="/src/js/stars.js" />
+        
       </Layout>
       
     )
