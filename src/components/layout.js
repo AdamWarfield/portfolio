@@ -16,7 +16,7 @@ class Template extends React.Component {
         <main>{children}</main>
         <Footer />
         <Helmet>
-    <script src="scripts.js" type="text/javascript" />
+    <script src="/scripts.js" type="text/javascript" />
 </Helmet>
       </>
     )
