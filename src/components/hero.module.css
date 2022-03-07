@@ -1,5 +1,5 @@
 .hero {
-  align-items: flex-end;
+  align-items: center;
   display: flex;
   margin: 0 auto;
   max-width: var(--size-max-width);
