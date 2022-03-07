@@ -12,12 +12,13 @@ class Template extends React.Component {
     return (
       <>
         <Seo />
-        <Navigation />
-        <main>{children}</main>
-        <Footer />
         <Helmet>
     <script src="/scripts.js" type="text/javascript" />
 </Helmet>
+        <Navigation />
+        <main>{children}</main>
+        <Footer />
+        
       </>
     )
   }
