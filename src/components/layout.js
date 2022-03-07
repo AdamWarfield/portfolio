@@ -1,5 +1,5 @@
 import React from 'react'
-import { Helmet } from 'react-helmet';
+
 import './variables.css'
 import './global.css'
 import Seo from './seo'
@@ -12,9 +12,7 @@ class Template extends React.Component {
     return (
       <>
         <Seo />
-        <Helmet>
-    <script src="/scripts.js" type="text/javascript" />
-</Helmet>
+        
         <Navigation />
         <main>{children}</main>
         <Footer />
