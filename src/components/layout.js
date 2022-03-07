@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
-import { withPrefix, Link } from "gatsby"
 import './variables.css'
 import './global.css'
 import Seo from './seo'
@@ -17,7 +16,7 @@ class Template extends React.Component {
         <main>{children}</main>
         <Footer />
         <Helmet>
-    <script src={withPrefix('script.js')} type="text/javascript" />
+    <script src="scripts.js" type="text/javascript" />
 </Helmet>
       </>
     )
