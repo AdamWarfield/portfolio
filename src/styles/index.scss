@@ -43,6 +43,10 @@ $cream: #FFFDD0;
   background: $blue;
   background: linear-gradient(0deg, rgba(39,113,145,1) 0%, rgba(33,85,114,1) 17%, rgba(26,57,83,1) 28%, rgba(20,28,52,1) 43%, rgba(13,0,21,1) 68%);
   position:relative;
+  color:white;
+  h1 h2 h3 h4 h5 h6{
+    color: white;
+  }
   .star-container{
     position: absolute;
   top:0;
@@ -51,7 +55,7 @@ $cream: #FFFDD0;
   width:100%;
   .star{
     background-color: white;
-    position: fixed;
+    position: absolute;
     border-radius: 50%;
    }
   }
