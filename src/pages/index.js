@@ -13,14 +13,19 @@ class RootIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
+        <section class="night-sky-bg">
+          <div class="star-container"></div>
         <Hero
           image={author.heroImage.gatsbyImageData}
           name={author.name}
           title={author.title}
           content={author.shortBio.shortBio}
         />
+        </section>
         <ArticlePreview posts={posts} />
+        <ScriptTag type="text/javascript" src="/src/js/stars.js" />
       </Layout>
+      
     )
   }
 }

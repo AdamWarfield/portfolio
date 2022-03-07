@@ -2,6 +2,7 @@
 $dark-gray: #353535;
 $orange-soda: #f06449;
 $pale-blue: #DDFFF7;
+$night-sky:#0d0015;
 $blue: #277191; 
 $yellow: #FFD166;
 $cream: #FFFDD0;
@@ -37,4 +38,21 @@ $cream: #FFFDD0;
 
 .pale-blue-bg{
   background: $pale-blue;
+}
+.night-sky-bg{
+  background: $blue;
+  background: linear-gradient(0deg, rgba(39,113,145,1) 0%, rgba(33,85,114,1) 17%, rgba(26,57,83,1) 28%, rgba(20,28,52,1) 43%, rgba(13,0,21,1) 68%);
+  position:relative;
+  .star-container{
+    position: absolute;
+  top:0;
+  right:0;
+  height:40%;
+  width:100%;
+  .star{
+    background-color: white;
+    position: fixed;
+    border-radius: 50%;
+   }
+  }
 }
