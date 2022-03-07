@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
-
+import { Helmet } from 'react-helmet';
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import ArticlePreview from '../components/article-preview'
@@ -13,6 +13,7 @@ class RootIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
+        
         <section class="night-sky-bg">
           <div class="star-container"></div>
         <Hero
@@ -23,7 +24,9 @@ class RootIndex extends React.Component {
         />
         </section>
         <ArticlePreview posts={posts} />
-        
+        <Helmet>
+      <script src="/scripts.js" type="text/javascript" />
+  </Helmet>
       </Layout>
       
     )
