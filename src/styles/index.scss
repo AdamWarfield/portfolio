@@ -8,7 +8,7 @@ $cream: #FFFDD0;
 //Blues
 
 $night-sky:#0d0015;
-$gray-navy: #141c34;
+$light-navy: #262d41;
 $pale-blue: #d8eaff;
 $blue: #277191;
 
@@ -46,9 +46,9 @@ $blue: #277191;
 .night-sky-bg{
   background: $blue;
   background: rgb(20,28,52);
-  background: -moz-linear-gradient(0deg, $gray-navy 50%, $night-sky 70%);
-  background: -webkit-linear-gradient(0deg, $gray-navy 50%, $night-sky 70%);
-  background: linear-gradient(0deg, $gray-navy 50%, $night-sky 70%);
+  background: -moz-linear-gradient(0deg, $light-navy 50%, $night-sky 70%);
+  background: -webkit-linear-gradient(0deg, $light-navy 50%, $night-sky 70%);
+  background: linear-gradient(0deg, $light-navy 50%, $night-sky 70%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141c34",endColorstr="#0d0015",GradientType=1);
   position:relative;
   color:white;
