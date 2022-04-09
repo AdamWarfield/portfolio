@@ -1,12 +1,16 @@
 //*Color pallet*//
 $dark-gray: #353535;
 $orange-soda: #f06449;
-$pale-blue: #DDFFF7;
-$night-sky:#0d0015;
-$blue: #277191; 
+ 
 $yellow: #FFD166;
 $cream: #FFFDD0;
 
+//Blues
+
+$night-sky:#0d0015;
+$gray-navy: #141c34;
+$pale-blue: #d8eaff;
+$blue: #277191;
 
 .dark-gray-bg{
   background: $dark-gray;
@@ -41,7 +45,11 @@ $cream: #FFFDD0;
 }
 .night-sky-bg{
   background: $blue;
-  background: linear-gradient(0deg, rgba(39,113,145,1) 0%, rgba(33,85,114,1) 17%, rgba(26,57,83,1) 28%, rgba(20,28,52,1) 43%, rgba(13,0,21,1) 68%);
+  background: rgb(20,28,52);
+  background: -moz-linear-gradient(0deg, $gray-navy 50%, $night-sky 70%);
+  background: -webkit-linear-gradient(0deg, $gray-navy 50%, $night-sky 70%);
+  background: linear-gradient(0deg, $gray-navy 50%, $night-sky 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141c34",endColorstr="#0d0015",GradientType=1);
   position:relative;
   color:white;
   h1 h2 h3 h4 h5 h6{
