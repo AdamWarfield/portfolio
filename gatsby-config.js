@@ -41,6 +41,7 @@ module.exports = {
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [
+    `gatsby-plugin-mailgo`,
     `gatsby-plugin-sass`,
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
