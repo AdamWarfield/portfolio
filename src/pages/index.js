@@ -21,6 +21,8 @@ class RootIndex extends React.Component {
           name={author.name}
           title={author.title}
           content={author.shortBio.shortBio}
+          linkedin={author.linkedin}
+          email={author.email}
         />
         </section>
         <ArticlePreview posts={posts} />
