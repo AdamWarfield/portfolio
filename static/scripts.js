@@ -6,7 +6,7 @@ function stars(){
     this.obj.classList.add("star");
       this.obj.style.top = (Math.random() * 100 + '%');
     this.obj.style.left = (Math.random() * 100 + '%');
-    this.obj.style.opacity =(Math.random() * ( .9 - .66) + .66);
+    this.obj.style.opacity =(Math.random() * ( .95 - .45) + .45);
     this.size = Math.floor(3 * Math.random()) + 7;
     this.obj.style.height =  this.size + 'px';
     this.obj.style.width = this.size + 'px';
