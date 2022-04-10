@@ -3,7 +3,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 import * as styles from './hero.module.css'
 
-const Hero = ({ image, name, title, content, linkedin, email }) => (
+const Hero = ({ image, name, title, content, linkedIn, email }) => (
   
   <div className={styles.hero}>
     {image && (
@@ -16,7 +16,7 @@ const Hero = ({ image, name, title, content, linkedin, email }) => (
         
         <div className={styles.contact}>
           
-          <a href={`${linkedin}`}>linkedIn</a>
+          <a href={`${linkedIn}`}>linkedIn</a>
           <a href={`mailto:${email}`}>{email}</a>
           </div>
       </div>
