@@ -68,6 +68,8 @@ export const pageQuery = graphql`
         shortBio {
           shortBio
         }
+        linkedIn
+        Email
         title
         heroImage: image {
           gatsbyImageData(
@@ -76,6 +78,8 @@ export const pageQuery = graphql`
             width: 1180
           )
         }
+        
+
       }
     }
   }
